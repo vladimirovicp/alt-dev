@@ -3,12 +3,11 @@ const admcMenu = [
     { text: 'Лицензия', link: '/projects/admc/license'},
     { text: 'Релизы', link: '/projects/admc/releases'},
     { text: 'Ссылка на исходники', link: '/projects/admc/link-to-sources/'},
-    { text: 'Инструменты', link: '/projects/admc/tools/'},
+    { text: '+Зависимости', link: '/projects/admc/dependencies/'},
     { text: 'Документация', link: '/projects/admc/documentation/'},
     { text: 'Полезная информация', link: '/projects/admc/useful-information/'},
+    { text: 'Инструменты', link: '/projects/admc/tools/'},
     { text: 'Участники проекта', link: '/projects/admc/project-participants/'},
-
-    
 ]
 
 module.exports = {
