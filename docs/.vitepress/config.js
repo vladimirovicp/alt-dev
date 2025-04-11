@@ -34,7 +34,11 @@ module.exports = {
         docFooter: {
             prev: 'Предыдущая страница',
             next: 'Следующая страница'
-          },
+        },
+        footer: {
+            message: 'Опубликовано под лицензией ???.',
+            copyright: '© 2025'
+        },
 
         darkModeSwitchLabel: 'Оформление',
         lightModeSwitchTitle: 'Переключить на светлую тему',
