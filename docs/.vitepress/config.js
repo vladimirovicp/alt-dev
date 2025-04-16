@@ -12,6 +12,7 @@ const admcMenu = [
 ];
 
 module.exports = {
+    base: '/alt-dev/',
     lang: 'ru-RU',
     title: 'AltLinux.dev',
     logo: '/logo.png',
