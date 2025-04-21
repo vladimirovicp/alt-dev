@@ -1,7 +1,4 @@
 # Проекты
 
->* [admc](/projects/admc/)
->* gpui
->* gpresult
->* gpupdate
->* alteratorctl
+>* [Альт Домен](/projects/alt-domain/)
+>* [alterator](/projects/alterator/)
