@@ -11,6 +11,20 @@ const admcMenu = [
     { text: 'Changelog', link: '/projects/admc/changelog/'},
 ];
 
+const newsMenuYear = [
+    {
+        text: '2025',
+        base: '/news/2025/',
+        items: [
+            { text: 'май', link: '05/'},
+            { text: 'апрель', link: '04/'},
+            { text: 'март', link: '03/'},
+            { text: 'февраль', link: '02/'},
+            { text: 'январь', link: '01/'},
+        ]
+    },
+];
+
 module.exports = {
     base: '/alt-dev/',
     lang: 'ru-RU',
@@ -30,6 +44,7 @@ module.exports = {
         nav: nav(),
         sidebar: {
             '/projects/admc': admcMenu,
+            '/news': newsMenuYear,
         },
         outline: { label: 'Содержание страницы' },
         docFooter: {
@@ -62,7 +77,7 @@ function nav(){
         },
         {
             text: 'Новости',
-            link: '/news/',
+            link: '/news/2025/05/',
             activeMatch: '/news/'
         },
         {
