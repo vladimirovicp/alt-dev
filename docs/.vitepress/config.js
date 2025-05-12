@@ -52,8 +52,8 @@ module.exports = {
             next: 'Следующая страница'
         },
         footer: {
-            message: 'Опубликовано под лицензией ???.',
-            copyright: '© 2025'
+            // message: 'Опубликовано под лицензией ???.',
+            copyright: 'Copyright © 2025 Все права защищены.'
         },
 
         darkModeSwitchLabel: 'Оформление',
