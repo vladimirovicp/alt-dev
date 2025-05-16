@@ -1,14 +1,12 @@
 const admcMenu = [
-    { text: 'Описание проекта', link: '/projects/admc/'},
-    { text: 'Лицензия', link: '/projects/admc/license/'},
-    { text: 'Релизы', link: '/projects/admc/releases/'},
-    { text: 'Ссылка на исходники', link: '/projects/admc/link-to-sources/'},
-    { text: 'Зависимости', link: '/projects/admc/dependencies/'},
-    { text: 'Документация', link: '/projects/admc/documentation/'},
-    { text: 'Полезная информация', link: '/projects/admc/useful-information/'},
-    { text: 'Инструменты', link: '/projects/admc/tools/'},
-    { text: 'Участники проекта', link: '/projects/admc/project-participants/'},
-    { text: 'Changelog', link: '/projects/admc/changelog/'},
+    { text: 'Описание проекта', link: '/projects/alt-domain/admc/'},
+    { text: 'Лицензия', link: '/projects/alt-domain/admc/license/'},
+    { text: 'Релизы', link: '/projects/alt-domain/admc/releases/'},
+    { text: 'Ссылка на исходники', link: '/projects/alt-domain/admc/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alt-domain/admc/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alt-domain/admc/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alt-domain/admc/project-participants/'},
+    { text: 'Changelog', link: '/projects/alt-domain/admc/changelog/'},
 ];
 
 const newsMenuYear = [
@@ -43,7 +41,7 @@ module.exports = {
     themeConfig: {
         nav: nav(),
         sidebar: {
-            '/projects/admc': admcMenu,
+            '/projects/alt-domain/admc': admcMenu,
             '/news': newsMenuYear,
         },
         outline: { label: 'Содержание страницы' },

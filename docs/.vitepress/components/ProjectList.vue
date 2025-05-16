@@ -61,6 +61,10 @@
         flex-shrink: 0;
     }
 
+    .dark .project__item{
+        background-color: #35353c;
+    }
+
     .pteject__title{
         font-size: 18px;
         font-weight: 600;
@@ -91,6 +95,9 @@
         border-radius: 60px;
         background-color:  #FFD800;
     }
+
+
+
 
     @media (hover:hover){
         .btn{
