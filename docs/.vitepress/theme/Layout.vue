@@ -17,9 +17,6 @@ const {
   close: closeSidebar
 } = useSidebar()
 
-
-console.log('500')
-
 const route = useRoute()
 watch(() => route.path, closeSidebar)
 
@@ -38,13 +35,24 @@ provide('hero-image-slot-exists', heroImageSlotExists)
     <slot name="layout-top" />
     <VPSkipLink />
     <VPBackdrop class="backdrop" :show="isSidebarOpen" @click="closeSidebar" />
-    
+    <VPNav>
+      <template #nav-bar-title-before><slot name="nav-bar-title-before" /></template>
+      <template #nav-bar-title-after><slot name="nav-bar-title-after" /></template>
+      <template #nav-bar-content-before><slot name="nav-bar-content-before" /></template>
+      <template #nav-bar-content-after><slot name="nav-bar-content-after" /></template>
+      <template #nav-screen-content-before><slot name="nav-screen-content-before" /></template>
+      <template #nav-screen-content-after><slot name="nav-screen-content-after" /></template>
+    </VPNav>
     <VPLocalNav :open="isSidebarOpen" @open-menu="openSidebar" />
 
     <VPSidebar :open="isSidebarOpen">
       <template #sidebar-nav-before><slot name="sidebar-nav-before" /></template>
       <template #sidebar-nav-after><slot name="sidebar-nav-after" /></template>
     </VPSidebar>
+
+    <!-- <div class="test">
+      <div class="container">Проверка!!!!</div>
+    </div> -->
 
     <VPContent>
       <template #page-top><slot name="page-top" /></template>
@@ -86,5 +94,17 @@ provide('hero-image-slot-exists', heroImageSlotExists)
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .container{
+    margin: var(--vp-layout-top-height, 0px) 0 0;
+    padding-left: var(--vp-sidebar-width);
+  }
 }
 </style>

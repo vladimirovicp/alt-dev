@@ -67,6 +67,15 @@ watchPostEffect(() => {
       <div class="divider-line" />
     </div>
   </div>
+  <div class="VPNavBar bottom">
+    <div class="wrapper">
+      <div class="container">
+        header bottom
+      </div>
+    </div>
+    
+
+  </div>
 </template>
 
 <style scoped>

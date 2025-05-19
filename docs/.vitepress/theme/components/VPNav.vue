@@ -6,8 +6,6 @@ import { useNav } from '../composables/nav'
 import VPNavBar from './VPNavBar.vue'
 import VPNavScreen from './VPNavScreen.vue'
 
-console.log('888')
-
 const { isScreenOpen, closeScreen, toggleScreen } = useNav()
 const { frontmatter } = useData()
 
