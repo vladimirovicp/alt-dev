@@ -24,6 +24,7 @@ const newsMenuYear = [
 ];
 
 module.exports = {
+    theme: './theme',
     base: '/alt-dev/',
     lang: 'ru-RU',
     title: 'altLinux.dev',
