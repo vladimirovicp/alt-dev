@@ -8,6 +8,7 @@ node_modules/
 # Локальные файлы сборки
 dist/
 .vitepress/cache/
+docs/.vitepress/cache/
 
 # Локальные файлы логирования
 *.log
