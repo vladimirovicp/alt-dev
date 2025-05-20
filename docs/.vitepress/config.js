@@ -9,6 +9,16 @@ const admcMenu = [
     { text: 'Changelog', link: '/projects/alt-domain/admc/changelog/'},
 ];
 
+const gpupdate = [
+    { text: 'Описание проекта', link: '/projects/alt-domain/gpupdate/'},
+    { text: 'Лицензия', link: '/projects/alt-domain/gpupdate/license/'},
+    { text: 'Релизы', link: '/projects/alt-domain/gpupdate/releases/'},
+    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpupdate/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alt-domain/gpupdate/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alt-domain/gpupdate/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alt-domain/gpupdate/project-participants/'},
+];
+
 const newsMenuYear = [
     {
         text: '2025',
@@ -43,6 +53,7 @@ module.exports = {
         nav: nav(),
         sidebar: {
             '/projects/alt-domain/admc': admcMenu,
+            '/projects/alt-domain/gpupdate': gpupdate,
             '/news': newsMenuYear,
         },
         outline: { label: 'Содержание страницы' },
@@ -51,7 +62,6 @@ module.exports = {
             next: 'Следующая страница'
         },
         footer: {
-            // message: 'Опубликовано под лицензией ???.',
             copyright: 'Copyright © 2025 Все права защищены.'
         },
 

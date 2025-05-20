@@ -1,0 +1,2 @@
+# Ссылка на исходники
+"Мы верим в открытость и честность. Поэтому весь исходный код gpupdate доступен по адресу: [https://github.com/altlinux/gpupdate](https://github.com/altlinux/gpupdate/). Изучайте, модифицируйте и делитесь!"
