@@ -9,6 +9,38 @@ const admcMenu = [
     { text: 'Changelog', link: '/projects/alt-domain/admc/changelog/'},
 ];
 
+const gpupdate = [
+    { text: 'Описание проекта', link: '/projects/alt-domain/gpupdate/'},
+    { text: 'Лицензия', link: '/projects/alt-domain/gpupdate/license/'},
+    { text: 'Релизы', link: '/projects/alt-domain/gpupdate/releases/'},
+    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpupdate/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alt-domain/gpupdate/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alt-domain/gpupdate/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alt-domain/gpupdate/project-participants/'},
+];
+
+const gpui = [
+    { text: 'Описание проекта', link: '/projects/alt-domain/gpui/'},
+    { text: 'Лицензия', link: '/projects/alt-domain/gpui/license/'},
+    { text: 'Релизы', link: '/projects/alt-domain/gpui/releases/'},
+    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpui/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alt-domain/gpui/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alt-domain/gpui/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alt-domain/gpui/project-participants/'},
+];
+
+const gpresult = [
+    { text: 'Описание проекта', link: '/projects/alt-domain/gpresult/'},
+    { text: 'Лицензия', link: '/projects/alt-domain/gpresult/license/'},
+    { text: 'Релизы', link: '/projects/alt-domain/gpresult/releases/'},
+    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpresult/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alt-domain/gpresult/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alt-domain/gpresult/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alt-domain/gpresult/project-participants/'},
+];
+
+
+
 const newsMenuYear = [
     {
         text: '2025',
@@ -43,6 +75,9 @@ module.exports = {
         nav: nav(),
         sidebar: {
             '/projects/alt-domain/admc': admcMenu,
+            '/projects/alt-domain/gpupdate': gpupdate,
+            '/projects/alt-domain/gpui': gpui,
+            '/projects/alt-domain/gpresult': gpresult,
             '/news': newsMenuYear,
         },
         outline: { label: 'Содержание страницы' },
@@ -51,7 +86,6 @@ module.exports = {
             next: 'Следующая страница'
         },
         footer: {
-            // message: 'Опубликовано под лицензией ???.',
             copyright: 'Copyright © 2025 Все права защищены.'
         },
 
