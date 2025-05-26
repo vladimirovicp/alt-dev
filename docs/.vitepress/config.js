@@ -39,8 +39,6 @@ const gpresult = [
     { text: 'Участники проекта', link: '/projects/alt-domain/gpresult/project-participants/'},
 ];
 
-
-
 const newsMenuYear = [
     {
         text: '2025',
