@@ -19,6 +19,28 @@ const gpupdate = [
     { text: 'Участники проекта', link: '/projects/alt-domain/gpupdate/project-participants/'},
 ];
 
+const gpui = [
+    { text: 'Описание проекта', link: '/projects/alt-domain/gpui/'},
+    { text: 'Лицензия', link: '/projects/alt-domain/gpui/license/'},
+    { text: 'Релизы', link: '/projects/alt-domain/gpui/releases/'},
+    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpui/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alt-domain/gpui/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alt-domain/gpui/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alt-domain/gpui/project-participants/'},
+];
+
+const gpresult = [
+    { text: 'Описание проекта', link: '/projects/alt-domain/gpresult/'},
+    { text: 'Лицензия', link: '/projects/alt-domain/gpresult/license/'},
+    { text: 'Релизы', link: '/projects/alt-domain/gpresult/releases/'},
+    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpresult/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alt-domain/gpresult/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alt-domain/gpresult/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alt-domain/gpresult/project-participants/'},
+];
+
+
+
 const newsMenuYear = [
     {
         text: '2025',
@@ -54,6 +76,8 @@ module.exports = {
         sidebar: {
             '/projects/alt-domain/admc': admcMenu,
             '/projects/alt-domain/gpupdate': gpupdate,
+            '/projects/alt-domain/gpui': gpui,
+            '/projects/alt-domain/gpresult': gpresult,
             '/news': newsMenuYear,
         },
         outline: { label: 'Содержание страницы' },
