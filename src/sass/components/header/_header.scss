@@ -1,0 +1,26 @@
+@use '../../helpers/_mixins.sass' as *;
+@use '../../helpers/_variables.scss' as *;
+
+.header{
+    border-bottom: 1px solid #67676c;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media(hover:hover){
+    .header{
+        &__link{
+            transition: color .25s ease-in-out;
+            &:hover{
+                color: #3451b2;
+            }
+        }
+    }
+}

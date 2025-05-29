@@ -1,0 +1,23 @@
+.main-menu{
+    &__list{
+        display: flex;
+    }
+
+    &__link{
+        padding: 0 12px;
+        &.active{
+            color: #3451b2;
+        }
+    }
+}
+
+@media (hover:hover){
+    .main-menu{
+        &__link{
+            transition: color .25s ease-in-out;
+            &:hover{
+                color: #3451b2;
+            }
+        } 
+    } 
+}

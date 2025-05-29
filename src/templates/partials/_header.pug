@@ -1,0 +1,47 @@
+- 
+  const menuItems = [
+    {
+      name: 'Главная',
+      link: '/'
+    },
+    {
+      name: 'Новости',
+      link: '/'
+    },
+    {
+      name: 'Проекты',
+      link: '/'
+    },
+    {
+      name: 'Обучение',
+      link: '/'
+    },
+    {
+      name: 'Менторство',
+      link: '/'
+    },
+    {
+      name: 'Взаимодействие',
+      link: '/'
+    },
+  ];
+
+header.header
+  .container
+    .header__logo
+      a.logo(href="index.html" class="header__link")
+        picture.header__logo-picture
+          img(src="./img/logo.png" alt="логотип")
+        .header__name altLinux.dev
+    nav.main-menu
+      ul.main-menu__list 
+        each item in menuItems
+          .main-menu__item
+            a(href=item.link class="main-menu__link")= item.name
+
+    //- h1.header This is the Header
+    //- ul
+    //-   li: a(href="index.html") Главная
+    //-   li: a(href="about.html") О нас
+    //-   li: a(href="contact.html") Контакты
+    //-   li: a(href="example.html") Пример`
