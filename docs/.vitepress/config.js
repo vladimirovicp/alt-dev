@@ -1,4 +1,7 @@
 const admcMenu = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'ADMC',},
     { text: 'Описание проекта', link: '/projects/alt-domain/admc/'},
     { text: 'Лицензия', link: '/projects/alt-domain/admc/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/admc/releases/'},
@@ -10,6 +13,9 @@ const admcMenu = [
 ];
 
 const gpupdate = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'gpupdate',},
     { text: 'Описание проекта', link: '/projects/alt-domain/gpupdate/'},
     { text: 'Лицензия', link: '/projects/alt-domain/gpupdate/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/gpupdate/releases/'},
@@ -20,6 +26,9 @@ const gpupdate = [
 ];
 
 const gpui = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'GPUI',},
     { text: 'Описание проекта', link: '/projects/alt-domain/gpui/'},
     { text: 'Лицензия', link: '/projects/alt-domain/gpui/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/gpui/releases/'},
@@ -30,6 +39,9 @@ const gpui = [
 ];
 
 const gpresult = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'GPResult',},
     { text: 'Описание проекта', link: '/projects/alt-domain/gpresult/'},
     { text: 'Лицензия', link: '/projects/alt-domain/gpresult/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/gpresult/releases/'},
@@ -112,7 +124,7 @@ function nav(){
             activeMatch: '/news/'
         },
         {
-            text: 'Проекты2',
+            text: 'Проекты',
             link: '/projects/',
             activeMatch: '/projects/',
         },
