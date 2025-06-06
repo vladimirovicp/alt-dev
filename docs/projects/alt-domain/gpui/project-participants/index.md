@@ -1,6 +1,6 @@
 # Участники проекта
-- Vladimir Rubanov
+- Anonymous
 - Evgeny Sinelnikov
 
 ## Сопровождающий:
-- Vladimir Rubanov
+- Anonymous
