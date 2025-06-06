@@ -1,8 +1,11 @@
 const admcMenu = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'ADMC',},
     { text: 'Описание проекта', link: '/projects/alt-domain/admc/'},
     { text: 'Лицензия', link: '/projects/alt-domain/admc/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/admc/releases/'},
-    { text: 'Ссылка на исходники', link: '/projects/alt-domain/admc/link-to-sources/'},
+    { text: 'Исходники', link: '/projects/alt-domain/admc/link-to-sources/'},
     { text: 'Документация', link: '/projects/alt-domain/admc/documentation/'},
     { text: 'Полезная информация', link: '/projects/alt-domain/admc/useful-information/'},
     { text: 'Участники проекта', link: '/projects/alt-domain/admc/project-participants/'},
@@ -10,36 +13,43 @@ const admcMenu = [
 ];
 
 const gpupdate = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'gpupdate',},
     { text: 'Описание проекта', link: '/projects/alt-domain/gpupdate/'},
     { text: 'Лицензия', link: '/projects/alt-domain/gpupdate/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/gpupdate/releases/'},
-    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpupdate/link-to-sources/'},
+    { text: 'Исходники', link: '/projects/alt-domain/gpupdate/link-to-sources/'},
     { text: 'Документация', link: '/projects/alt-domain/gpupdate/documentation/'},
     { text: 'Полезная информация', link: '/projects/alt-domain/gpupdate/useful-information/'},
     { text: 'Участники проекта', link: '/projects/alt-domain/gpupdate/project-participants/'},
 ];
 
 const gpui = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'GPUI',},
     { text: 'Описание проекта', link: '/projects/alt-domain/gpui/'},
     { text: 'Лицензия', link: '/projects/alt-domain/gpui/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/gpui/releases/'},
-    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpui/link-to-sources/'},
+    { text: 'Исходники', link: '/projects/alt-domain/gpui/link-to-sources/'},
     { text: 'Документация', link: '/projects/alt-domain/gpui/documentation/'},
     { text: 'Полезная информация', link: '/projects/alt-domain/gpui/useful-information/'},
     { text: 'Участники проекта', link: '/projects/alt-domain/gpui/project-participants/'},
 ];
 
 const gpresult = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
+    {text: 'GPResult',},
     { text: 'Описание проекта', link: '/projects/alt-domain/gpresult/'},
     { text: 'Лицензия', link: '/projects/alt-domain/gpresult/license/'},
     { text: 'Релизы', link: '/projects/alt-domain/gpresult/releases/'},
-    { text: 'Ссылка на исходники', link: '/projects/alt-domain/gpresult/link-to-sources/'},
+    { text: 'Исходники', link: '/projects/alt-domain/gpresult/link-to-sources/'},
     { text: 'Документация', link: '/projects/alt-domain/gpresult/documentation/'},
     { text: 'Полезная информация', link: '/projects/alt-domain/gpresult/useful-information/'},
     { text: 'Участники проекта', link: '/projects/alt-domain/gpresult/project-participants/'},
 ];
-
-
 
 const newsMenuYear = [
     {
@@ -116,7 +126,7 @@ function nav(){
         {
             text: 'Проекты',
             link: '/projects/',
-            activeMatch: '/projects/'
+            activeMatch: '/projects/',
         },
         {
             text: 'Обучение',
