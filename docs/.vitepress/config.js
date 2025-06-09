@@ -51,6 +51,19 @@ const gpresult = [
     { text: 'Участники проекта', link: '/projects/alt-domain/gpresult/project-participants/'},
 ];
 
+const alteratorctl = [
+    {text: '--Проекты', link: '/projects/'},
+    {text: '-Проекты alterator', link: '/projects/alterator/'},
+    {text: 'alteratorctl',},
+    { text: 'Описание проекта', link: '/projects/alterator/alteratorctl/'},
+    { text: 'Лицензия', link: '/projects/alterator/alteratorctl/license/'},
+    { text: 'Релизы', link: '/projects/alterator/alteratorctl/releases/'},
+    { text: 'Исходники', link: '/projects/alterator/alteratorctl/link-to-sources/'},
+    { text: 'Документация', link: '/projects/alterator/alteratorctl/documentation/'},
+    { text: 'Полезная информация', link: '/projects/alterator/alteratorctl/useful-information/'},
+    { text: 'Участники проекта', link: '/projects/alterator/alteratorctl/project-participants/'},
+];
+
 const newsMenuYear = [
     {
         text: '2025',
@@ -88,6 +101,7 @@ module.exports = {
             '/projects/alt-domain/gpupdate': gpupdate,
             '/projects/alt-domain/gpui': gpui,
             '/projects/alt-domain/gpresult': gpresult,
+            '/projects/alterator/alteratorctl': alteratorctl,
             '/news': newsMenuYear,
         },
         outline: { label: 'Содержание страницы' },
