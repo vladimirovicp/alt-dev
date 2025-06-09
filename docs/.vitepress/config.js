@@ -1,3 +1,8 @@
+const useful = [
+    { text: 'Join', link: '/useful/join/'},
+    { text: 'Менторство', link: '/useful/mentoring'}
+];
+
 const admcMenu = [
     {text: '--Проекты', link: '/projects/'},
     {text: '-Проекты альт Домен', link: '/projects/alt-domain/'},
@@ -78,6 +83,8 @@ const newsMenuYear = [
     },
 ];
 
+
+
 module.exports = {
     base: '/alt-dev/',
     lang: 'ru-RU',
@@ -103,6 +110,7 @@ module.exports = {
             '/projects/alt-domain/gpresult': gpresult,
             '/projects/alterator/alteratorctl': alteratorctl,
             '/news': newsMenuYear,
+            '/useful': useful,
         },
         outline: { label: 'Содержание страницы' },
         docFooter: {
@@ -142,16 +150,21 @@ function nav(){
             link: '/projects/',
             activeMatch: '/projects/',
         },
+        // {
+        //     text: 'Обучение',
+        //     link: '/education/',
+        //     activeMatch: '/education/'
+        // },
         {
-            text: 'Обучение',
-            link: '/education/',
-            activeMatch: '/education/'
+            text: 'Полезно',
+            link: '/useful/',
+            activeMatch: '/useful/'
         },
-        {
-            text: 'Менторство',
-            link: '/mentoring/',
-            activeMatch: '/mentoring/'
-        },
+        // {
+        //     text: 'Менторство',
+        //     link: '/mentoring/',
+        //     activeMatch: '/mentoring/'
+        // },
         {
             text: 'Взаимодействие',
             link: '/interaction/',
