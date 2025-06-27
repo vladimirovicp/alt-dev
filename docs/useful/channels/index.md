@@ -2,6 +2,7 @@
 
 ## Rutube
 
+* [Базальт СПО |Операционные системы «Альт»](https://rutube.ru/channel/26209037/)
 * [ALT Linux Team](https://rutube.ru/channel/32403463/videos/)
 * [ALT Gnome](https://rutube.ru/channel/32425669/videos/)
 
@@ -24,4 +25,5 @@
 
 ## vk
 
-* [Базальт СПО](https://vk.com/altlinux)
+* [Группа «Базальт СПО» ВКонтакте](https://vk.com/altlinux)
+* [Образовательный новостной VK-канал «Альт Академия»](https://vk.com/alt_academy)
