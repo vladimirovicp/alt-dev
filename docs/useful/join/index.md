@@ -1,5 +1,7 @@
-# Join
+# Join (ALT Linux Team)
 
+## Процесс приёма в команду
+> * [Обработка запросов на приём в команду](https://www.altlinux.org/Team/Join/Secretary)
 
 ## Списки рассылок
 
