@@ -10,6 +10,8 @@
 * [Альт академия](https://kurs.basealt.ru/)
 * [Сайт загрузки ALT](https://getalt.org/)
 * [Git-хостинг](https://git.altlinux.org/)
+* [Блог Альтишника](https://www.basealt.ru/about/blog)
+
 
 
 ## Wiki
