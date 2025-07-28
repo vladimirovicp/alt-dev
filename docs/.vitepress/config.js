@@ -1,7 +1,7 @@
 const useful = [
     { text: 'Каналы', link:'/useful/channels'},
     { text: 'Вебсайты', link:'/useful/websites'},
-    { text: 'Join', link: '/useful/join/'},
+    { text: 'Join (ALT Linux Team)', link: '/useful/join/'},
     { text: 'Менторство', link: '/useful/mentoring'},
 ];
 
